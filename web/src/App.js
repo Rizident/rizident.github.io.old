@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 import logo from './RizidentMeme.png';
 import './App.css';
-import { useState } from 'react';
+import { useState } from "react";
 
 function App() {
   // JavaScript
@@ -19,9 +19,9 @@ function App() {
   }
 
   if (lang === "en") {
-    welcomeText1 = "I'm " + age + " years old and i do this site  to help  users at games"
+    welcomeText1 = "I'm " + age + "years old and i do this site  to help  users at games"
   } else if (lang === "ru") {
-    welcomeText1 = "Мне "+ age + " лет и я создал это сайт чтобы помочь пользователям в играх"
+    welcomeText1 = "Мне "+ age + "лет и я создал это сайт чтобы помочь пользователям в играх"
   }
   function changeLang() {
     if (lang === "ru") {
@@ -36,8 +36,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <p className="App-text">
           {welcomeText}
+        </p>
+        <p className="App-text">
+        {welcomeText1}
         </p>
         <a
           className="App-link"
@@ -45,7 +48,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-            My Reddit
+           My Reddit
         </a>
         <a
           className="App-link"
@@ -55,11 +58,10 @@ function App() {
         >
             My Telegram
         </a>
-        {welcomeText1}
+        
         <button onClick={changeLang}>{lang}</button>
       </header>
     </div>
   );
 }
-
 export default App;
