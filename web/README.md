@@ -1,7 +1,11 @@
 # Сайт
 
+
+
 1. Чтобы запустить разработку на компьютере надо `npm start`
+    - http://localhost:3000/
 2. Чтобы в выложить в интернет `npm run build` и commit и push Github Desktop
+    - https://rizident.github.io/
 
 
 # Getting Started with Create React App
