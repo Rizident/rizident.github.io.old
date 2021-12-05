@@ -19,9 +19,9 @@ function App() {
   }
 
   if (lang === "en") {
-    welcomeText1 = "I'm " + age + "years old and i do this site  to help  users at games"
+    welcomeText1 = "I'm " + age + "years old and i do this site  to discuss with users about  games or  others areas of activity, such as programming"
   } else if (lang === "ru") {
-    welcomeText1 = "Мне "+ age + "лет и я создал это сайт чтобы помочь пользователям в играх"
+    welcomeText1 = "Мне "+ age + "лет и я создал это сайт чтобы рассуждать с  пользователями о играх или о других сферах деятельности, например програмирование"
   }
   function changeLang() {
     if (lang === "ru") {
