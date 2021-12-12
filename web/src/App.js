@@ -18,6 +18,14 @@ function App() {
     welcomeText = "Hi! I'm Rizdent!"
   }
 
+  let LanguageChange = "";
+  LanguageChange ="ru"
+  if (lang === "ru") {
+    LanguageChange ="ENG"
+  } else if (lang === "en") {
+    LanguageChange ="RUS"
+  }
+
   if (lang === "en") {
     welcomeText1 = "I'm " + age + " years old and i do this site  to discuss with users about  games or  others areas of activity, such as programming"
   } else if (lang === "ru") {
@@ -34,13 +42,16 @@ function App() {
   if (lang === "en") {
     welcomeText2 = "In the future, I would like to make this site a full-fledged social network, but for now you can only write to me on Reddit or to Telegram itself, so that you can communicate with me on the topics of games and programming, but you can also talk on other topics :) "
   } else if (lang === "ru") {
-    welcomeText2 = " Этот сайт в будущем я хотел бы сделать как полнаценyую соц сеть но пока  можете писать только мне в Reddit или в сам Телеграм чтоб пообщатся именно со мной на темы игр и програмирования, но можно будет пообщатся и на другие темы :)"
+    welcomeText2 = " Этот сайт в будущем я хотел бы сделать как полнаценyю соц сеть но пока  можете писать только мне в Reddit или в сам Телеграм чтоб пообщатся именно со мной на темы игр и програмирования, но можно будет пообщатся и на другие темы :)"
   }
   // HTML
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <div className="App-lang">
+          <button onClick={changeLang}>{LanguageChange}</button>
+        </div >
         <div className="App-content">
           <p className="App-text">
             {welcomeText}
@@ -72,9 +83,9 @@ function App() {
             </p>
           </div>
 
-          <button onClick={changeLang}>{lang}</button></div>
+        </div>
       </header>
-    </div>
+    </div >
   );
 }
 export default App;

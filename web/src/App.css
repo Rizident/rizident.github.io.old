@@ -42,3 +42,7 @@
 .App-info{
   padding-top: 130px;
 }
+.App-lang{
+  width: 100%;
+  text-align: right 
+}
