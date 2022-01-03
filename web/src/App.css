@@ -46,3 +46,60 @@
   width: 100%;
   text-align: right 
 }
+.App-test{
+  background-color: red
+}
+.App-text{
+  background-color: #000000;
+  font-size: calc(10px + 2vmin);
+  color:#BF0D00;
+  opacity: 0.8;
+  padding: 6px;
+  border-radius: 10px;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 3vmin;
+  pointer-events: none;
+  padding: 7px; 
+} 
+
+.App-header {
+  background-color: #000000;
+  min-height: 100vh;
+  background-image: url('back-side.jpg'); 
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  justify-content:flex-start ;
+  font-size: calc(10px + 2vmin);
+  color: rgb(219, 26, 26);
+}
+
+.App-link {
+  background-color: #000000;
+  font-size: calc(10px + 2vmin);
+  color:#BF0D00;
+  opacity: 0.8;
+  padding: 6px;
+  border-radius: 10px;
+}
+.App-content{
+  padding-top: 160px;
+}
+.App-info{
+  padding-top: 130px;
+}
+.App-lang{
+  width: 100%;
+  text-align: right 
+}
+
+
+
+
+
+

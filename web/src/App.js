@@ -19,11 +19,11 @@ function App() {
   }
 
   let LanguageChange = "";
-  LanguageChange ="ru"
+  LanguageChange = "ru"
   if (lang === "ru") {
-    LanguageChange ="ENG"
+    LanguageChange = "ENG"
   } else if (lang === "en") {
-    LanguageChange ="RUS"
+    LanguageChange = "RUS"
   }
 
   if (lang === "en") {
@@ -50,9 +50,11 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <div className="App-lang">
+
           <button onClick={changeLang}>{LanguageChange}</button>
         </div >
         <div className="App-content">
+      
           <p className="App-text">
             {welcomeText}
           </p>
@@ -76,10 +78,21 @@ function App() {
           >
             My Telegram
           </a>
-
+         
           <div className="App-info">
             <p className="App-text">
-              {welcomeText2}
+              {welcomeText2} 
+              </p>
+              </div> 
+              <div>
+            <p>
+              <a
+            className="App-link"
+            href="/info"
+            rel="noopener noreferrer"
+          >
+           Informacion
+          </a>
             </p>
           </div>
 
