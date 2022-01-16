@@ -2,6 +2,7 @@ import React from "react";
 import logo from './RizidentMeme.png';
 import './App.css';
 import { useState } from "react";
+import TopBar from "TopBar";
 
 function App() {
   // JavaScript
@@ -48,13 +49,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <TopBar></TopBar>
         <div className="App-lang">
 
           <button onClick={changeLang}>{LanguageChange}</button>
         </div >
         <div className="App-content">
-      
+
           <p className="App-text">
             {welcomeText}
           </p>
@@ -78,21 +79,15 @@ function App() {
           >
             My Telegram
           </a>
-         
+
           <div className="App-info">
             <p className="App-text">
-              {welcomeText2} 
-              </p>
-              </div> 
-              <div>
+              {welcomeText2}
+            </p>
+          </div>
+          <div>
             <p>
-              <a
-            className="App-link"
-            href="/info"
-            rel="noopener noreferrer"
-          >
-           Informacion
-          </a>
+            
             </p>
           </div>
 
