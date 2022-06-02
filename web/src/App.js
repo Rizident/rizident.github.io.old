@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from "react";
 import logo from './RizidentMeme.png';
 import './App.css';
@@ -94,5 +95,7 @@ function App() {
       </header>
     </div >
   );
+
 }
-}
+export default App 
+
