@@ -28,22 +28,21 @@ function App() {
   }
 
   if (lang === "en") {
-    welcomeText1 = "I'm " + age + " years old and i do this site  to discuss with users about  games or  others areas of activity, such as programming"
+    welcomeText1 = "I made this site because i  did not want to write on each social media my  description, also I made this site so that people know who i'm, what are my hobby  and what am i working  on "
   } else if (lang === "ru") {
-    welcomeText1 = "Мне " + age + " лет и я создал это сайт чтобы рассуждать с  пользователями о играх или о других сферах деятельности, например програмирование"
+    welcomeText1 = "Я сделал этот сайт, потому что не хотел писать в каждой социальной сети свое описание, также я сделал этот сайт чтобы люди знали кто я, какие  мои хобби и над чем я работаю."
   }
   function changeLang() {
     if (lang === "ru") {
       setLang("en");
     } else {
       setLang("ru");
-    }
   }
   let welcomeText2 = "";
   if (lang === "en") {
-    welcomeText2 = "In the future, I would like to make this site a full-fledged social network, but for now you can only write to me on Reddit or to Telegram itself, so that you can communicate with me on the topics of games and programming, but you can also talk on other topics :) "
+    welcomeText2 = "I'm " + age + " years old , my real name is Alex I'm programming developer at JavaScript. I love games like RPG and collect all kinds of gadgets like PI laptop and others CyberDeck technologies. In a future i want to make a full blog about my all CyberDeck construction :) "
   } else if (lang === "ru") {
-    welcomeText2 = " Этот сайт в будущем я хотел бы сделать как полнаценyю соц сеть но пока  можете писать только мне в Reddit или в сам Телеграм чтоб пообщатся именно со мной на темы игр и програмирования, но можно будет пообщатся и на другие темы :)"
+    welcomeText2 = "Мне " + age + "  лет. Моё настоящее имя  Алекс. Я разработчик программного обеспечения . Я люблю игры жанра  RPG также я собираю всевозможные гаджеты, такие как  PI laptop и другие  техноголии CyberDeck. В будущем я хочу создать полноценный блог о всех моих конструкциях  CyberDeck:)"
   }
   // HTML
   return (
@@ -96,4 +95,4 @@ function App() {
     </div >
   );
 }
-export default App;
+}
