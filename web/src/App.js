@@ -87,15 +87,12 @@ function App() {
           </div>
           <div>
             <p>
-            
             </p>
           </div>
-
         </div>
       </header>
     </div >
   );
-
 }
 export default App 
 
