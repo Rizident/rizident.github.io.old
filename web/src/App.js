@@ -4,7 +4,7 @@ import './App.css';
 import { useState } from "react";
 import TopBar from "TopBar";
 
-function App() {
+export default function App() {
   // JavaScript
   const [lang, setLang] = useState("ru");
 
@@ -37,6 +37,7 @@ function App() {
       setLang("en");
     } else {
       setLang("ru");
+    }
   }
   let welcomeText2 = "";
   if (lang === "en") {
@@ -93,4 +94,4 @@ function App() {
     </div >
   );
 }
-}
+
