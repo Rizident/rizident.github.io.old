@@ -41,7 +41,7 @@ export default function App() {
   }
   let welcomeText2 = "";
   if (lang === "en") {
-    welcomeText2 = "I'm " + age + " years old , my real name is Alex I'm programming developer at JavaScript. I love games like RPG and collect all kinds of gadgets like PI laptop and others CyberDeck technologies. In a future i want to make a full blog about my all CyberDeck construction :) "
+    welcomeText2 = "I'm " + age + " years old , my real name is Alex I'm software developer. I love  RPG games and collect all kinds of gadgets like PI laptop and others CyberDeck technologies. In a future i want to make a full blog about my all CyberDeck construction :) "
   } else if (lang === "ru") {
     welcomeText2 = "Мне " + age + "  лет. Моё настоящее имя  Алекс. Я разработчик программного обеспечения . Я люблю игры жанра  RPG также я собираю всевозможные гаджеты, такие как  PI laptop и другие  техноголии CyberDeck. В будущем я хочу создать полноценный блог о всех моих конструкциях  CyberDeck:)"
   }
