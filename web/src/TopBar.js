@@ -15,9 +15,10 @@ export default  function TopBar() {
                 href="/info"
                 rel="noopener noreferrer"
               >
-                Informacion
+                Informacion 
               </a>
 
   
-        </div>)   
+        </div>) 
+          
 }    
