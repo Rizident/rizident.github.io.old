@@ -68,7 +68,7 @@ export default function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            My Reddit
+            
           </a>
           <a
             className="App-link"
